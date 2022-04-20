@@ -33,7 +33,7 @@ function Users() {
         <div>
             <h1>Users</h1>
             <ul>
-                    {users.map((user) => (
+                    {users.map((user: { name: string; email: string; }) => (
                         <li>{"NAME:  " + user.name + " --- EMAIL: " + user.email}</li> 
                     ))}
             </ul>
