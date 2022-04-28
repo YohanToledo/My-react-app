@@ -17,3 +17,26 @@ a, a:hover {
   text-decoration: none;
   color: unset;
 }
+
+.width15{
+  width: 15%;
+}
+
+.table-box{
+  width: 1200px;
+  height: fit-content;
+  border: 5px;
+  border-color: black;
+  align-items: center;
+}
+
+.custom-container{
+  border: solid 1px #ccc;
+  border-radius: 20px;
+  background-color: white;
+}
+
+
+.save-user{
+  margin-left: 12%;
+}
